@@ -12,3 +12,7 @@ fi
 
 # Customize to your needs...
 
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+alias homeshick='$HOME/.homesick/repos/homeshick/home/.homeshick'
