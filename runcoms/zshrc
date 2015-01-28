@@ -15,4 +15,6 @@ fi
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
+alias fuck='sudo $(history -p \!\!)'
+
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
